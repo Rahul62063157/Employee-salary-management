@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1,
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+#employee-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+}
+
+.employee:hover {
+    transform: translateY(-5px);
+}
+
+.employee-id,
+.employee-name,
+.employee-salary {
+    margin-bottom: 5px;
+}
+
+.employee-id {
+    font-weight: bold;
+    color: #555;
+}
+
+.employee-name {
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.employee-salary {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.employee-address {
+    font-weight: bold;
+    color: blue;
+}
+
+#total-salary {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+}
